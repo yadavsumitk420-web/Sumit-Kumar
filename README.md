@@ -1,21 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Aapna Buxar News 📰
 
-# Run and deploy your AI Studio app
+एक Kotlin में बना हुआ Android News App है जो बिहार की खबरें प्रदान करता है।
 
-This contains everything you need to run your app locally.
+## Project Setup
 
-View your app in AI Studio: https://ai.studio/apps/b6d0b45e-144f-42f2-9ce3-e98ceb83aac3
+यह एक complete Android project structure है जिसमें:
 
-## Run Locally
+- ✅ Android Studio compatible
+- ✅ Kotlin programming language
+- ✅ Material Design
+- ✅ AndroidX dependencies
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+## Requirements
 
+- Android Studio (latest version)
+- Android SDK 21+
+- Kotlin 1.8+
+- Gradle 8.0+
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+## Build करने के लिए:
+
+```bash
+./gradlew build
+./gradlew assembleDebug  # Debug APK
+./gradlew assembleRelease  # Release APK
+```
+
+## APK कहाँ मिलेगा:
+
+- Debug APK: `app/build/outputs/apk/debug/app-debug.apk`
+- Release APK: `app/build/outputs/apk/release/app-release.apk`
+
+## Features (आने वाले)
+
+- [ ] News List
+- [ ] Category Filter
+- [ ] Share News
+- [ ] Offline Mode
+- [ ] Hindi Support
+
+---
+
+Happy Coding! 🚀
