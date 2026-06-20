@@ -1,0 +1,6 @@
+{
+  "name": "Aapna Buxar News",
+  "description": "Local news and community updates from Buxar, Bihar with Gemini-powered AI summaries, real-time translations, and bookmarking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
